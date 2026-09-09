@@ -43,9 +43,11 @@ aivinix-frontend-assignment/
     │   │   └── types/            # TypeScript interfaces & types
     │   ├── hooks/                # Custom React hooks (useDebounce, useProductFilters)
     │   ├── layouts/              # MainLayout, Header, and Sidebar components
+    │   ├── lib/                  # Shared library configs & instances (TanStack QueryClient)
     │   ├── pages/                # Route pages (List, Detail, Create, Edit, Favorites, 404)
     │   ├── routes/               # React Router configuration
     │   ├── stores/               # Zustand global state (Favorites, Recently Viewed, Sidebar)
+    │   ├── types/                # Global shared TypeScript interfaces (API response contracts)
     │   ├── App.tsx               # Root component with QueryClientProvider
     │   └── main.tsx              # Application entry point
     ├── .env.example              # Environment variables template
