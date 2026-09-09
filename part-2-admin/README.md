@@ -72,6 +72,8 @@ src/
 │   ├── MainLayout.tsx          # Responsive layout container
 │   ├── Header.tsx              # Global search, notifications, favorites counter & mobile toggle
 │   └── Sidebar.tsx             # Collapsible desktop sidebar & mobile drawer
+├── lib/                        # Shared library clients & setup
+│   └── queryClient.ts          # TanStack QueryClient with default cache & retry rules
 ├── pages/                      # Application route pages
 │   ├── ProductListPage.tsx     # /products (Data table, search, filter, sort, pagination)
 │   ├── ProductDetailPage.tsx   # /products/:id (Full overview, inventory, recently viewed slider)
@@ -80,9 +82,13 @@ src/
 │   ├── FavoritesPage.tsx       # /favorites (Bookmarked favorites & Recently viewed history tabs)
 │   └── NotFoundPage.tsx        # 404 fallback page
 ├── routes/                     # React Router configuration
-└── stores/                     # Global client state (Zustand)
-    ├── useFavoriteStore.ts     # Favorites & Recently viewed with localStorage persistence
-    └── useSidebarStore.ts      # Sidebar collapse & mobile drawer toggle
+├── stores/                     # Global client state (Zustand)
+│   ├── useFavoriteStore.ts     # Favorites & Recently viewed with localStorage persistence
+│   └── useSidebarStore.ts      # Sidebar collapse & mobile drawer toggle
+├── types/                      # Shared global TypeScript definitions
+│   └── api.ts                  # Generic API responses & metadata interfaces
+├── App.tsx                     # Root application component with Providers
+└── main.tsx                    # React DOM entry point
 ```
 
 ---
