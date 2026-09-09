@@ -49,6 +49,9 @@ src/
 │   ├── Header.tsx              # Top header bar (search bar, user profile, etc.)
 │   └── Sidebar.tsx             # Main navigation sidebar
 │
+├── lib/                        # Shared library setup & client configurations
+│   └── queryClient.ts          # TanStack QueryClient with default caching strategy
+│
 ├── pages/                      # Route page components
 │   ├── ProductListPage.tsx     # Route: /products
 │   ├── ProductDetailPage.tsx   # Route: /products/:id
