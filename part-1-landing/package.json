@@ -1,0 +1,12 @@
+{
+  "name": "tiran-landing-page",
+  "version": "1.0.0",
+  "description": "TIRAN Steak House Landing Page - Figma Implementation",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx -y serve -l 3000 ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
